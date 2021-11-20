@@ -140,13 +140,13 @@ ul a{
 }
   
 .slide-1 {
-    background-image: url(./images/slider.png);
+    background-image: url(../images/slider.png);
 }
 .slide-2 {
-    background-image: url(./images/slider.png);
+    background-image: url(../images/slider.png);
 }
 .slide-3 {
-    background-image: url(./images/slider.png);
+    background-image: url(../images/slider.png);
 }
 
 /* CARDS */
