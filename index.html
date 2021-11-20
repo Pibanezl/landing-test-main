@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>propulsoW | prueba nuevas tiendas</title>
+</head>
+<body>
+    <div class="info-message">Mensaje Informativo - Comercial</div>  
+    <header>
+            <!-- DESKTOP MENU -->
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" ><img src="images/search.png" class="li-icon" alt=""></a></li>
+                    <li><a href="#" ><img src="images/bag.png" class="li-icon" alt=""></a></li>
+                </ul>
+            </nav>
+            <!-- MOBILE MENU -->
+            <div id="mobile-navbar" >
+                <ul>
+                    <li><a href="#" ><img src="images/search.png" class="li-icon" alt=""></a></li>
+                    <li><a href="#" ><img src="images/bag.png" class="li-icon" alt=""></a></li>
+                    <li onclick="openMenu(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        <ul class="mobile-menu">
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Galeria</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </header>
+
+    <!-- SLIDER --> 
+    <div class="slider-container">
+        <div class="menu">
+          <label for="slide-dot-1"></label>
+          <label for="slide-dot-2"></label>
+          <label for="slide-dot-3"></label>
+        </div>
+        
+        <input id="slide-dot-1" type="radio" name="slides" checked>
+          <div class="slide slide-1"></div>
+        
+        <input id="slide-dot-2" type="radio" name="slides">
+          <div class="slide slide-2"></div>
+        
+        <input id="slide-dot-3" type="radio" name="slides">
+          <div class="slide slide-3"></div>
+    </div>
+
+    <!-- CARDS -->
+    <section class="card-container">
+        <div class="card">
+            <div class="product-card">
+                <a href="" class="lbl-new-product">new</a>
+                <span class="lbl-corner"></span>
+                <span class="lbl-discount">20%</span>
+                <div class="card-image">
+                    <img src="images/producto.png" alt="producto">
+                </div>
+                <div class="card-base">
+                    <p class="lbl-product-name">Nombre de producto ejemplo largo</p>
+                    <p class="lbl-price">
+                        <span class="lbl-normal-price">$19.990</span>
+                        <span class="lbl-discount-price"> $9.990</span>
+                    </p>
+                    <a class="btn-buy" href="#"><img src="/images/cart.png" alt="">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-card">
+                <a href="" class="lbl-new-product">new</a>
+                <span class="lbl-corner"></span>
+                <span class="lbl-discount">20%</span>
+                <div class="card-image">
+                    <img src="images/producto.png" alt="producto">
+                </div>
+                <div class="card-base">
+                    <p class="lbl-product-name">Nombre de producto ejemplo largo</p>
+                    <p class="lbl-price">
+                        <span class="lbl-normal-price">$19.990</span>
+                        <span class="lbl-discount-price"> $9.990</span>
+                    </p>
+                    <a class="btn-buy" href="#"><img src="/images/cart.png" alt="">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-card">
+                <a href="" class="lbl-new-product">new</a>
+                <span class="lbl-corner"></span>
+                <span class="lbl-discount">20%</span>
+                <div class="card-image">
+                    <img src="images/producto.png" alt="producto">
+                </div>
+                <div class="card-base">
+                    <p class="lbl-product-name">Nombre de producto ejemplo largo</p>
+                    <p class="lbl-price">
+                        <span class="lbl-normal-price">$19.990</span>
+                        <span class="lbl-discount-price"> $9.990</span>
+                    </p>
+                    <a class="btn-buy" href="#"><img src="/images/cart.png" alt="">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-card">
+                <a href="" class="lbl-new-product">new</a>
+                <span class="lbl-corner"></span>
+                <span class="lbl-discount">20%</span>
+                <div class="card-image">
+                    <img src="images/producto.png" alt="producto">
+                </div>
+                <div class="card-base">
+                    <p class="lbl-product-name">Nombre de producto ejemplo largo</p>
+                    <p class="lbl-price">
+                        <span class="lbl-normal-price">$19.990</span>
+                        <span class="lbl-discount-price"> $9.990</span>
+                    </p>
+                    <a class="btn-buy" href="#"><img src="/images/cart.png" alt="">Comprar</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- PROFESIONALES ESPECIALISTAS -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>PROFESIONALES</h2>
+                <h2>ESPECIALISTAS</h2>
+            </div>
+            <div class="photo-container">
+                <div class="photo-column">
+                    <img class="photo-item" src="images/especialistas-1.png" alt="">
+                    <img class="photo-item" src="images/especialistas-2.png" alt="">
+                </div>
+                <div class="photo-column">    
+                    <img class="photo-item" src="images/especialistas-3.png" alt="">
+                    <img class="photo-item" src="images/especialistas-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUSCRIBE FORM -->
+    <section>
+        <div class="subscribe-form">
+                <div class="lbl-subscribe">
+                    <h3>Subscribe to Newsletters</h3>
+                    <p>Be aware of upcoming sales and events. Receive gifts and special offers!</p>
+                </div>
+                <div class="submit-subscribe">
+                    <input type="text" placeholder="Ingresa tu Correo">
+                    <a href="#">SUBSCRIBE</a>
+                </div>
+            
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
