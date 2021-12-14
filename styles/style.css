@@ -6,7 +6,7 @@ body{
 .info-message{
     text-align: center;
     color: white;
-    background-color: #4938B5;
+    background-color: #7b9fa4;
     padding-top: 5px;
     padding-bottom:5px;
 }
@@ -32,16 +32,14 @@ nav li:hover{
 }
 ul a{
     font-weight: 400;
-    color:#1D0D85;
+    color:#56787d;
     text-decoration: none;
 }
-.logo{width: 150px;height: 30px;}
+.logo{width: 150px;height: 70px;}
 .li-icon{
     height: 25px;
     width: 25px; 
-    filter: invert(15%) 
-    sepia(55%) saturate(4583%) hue-rotate(245deg) 
-    brightness(71%) contrast(119%);
+    filter: invert(43%) sepia(29%) saturate(360%) hue-rotate(140deg) brightness(94%) contrast(87%);
 }
 /* MOBILE NAVBAR */
 #mobile-navbar{
@@ -56,7 +54,7 @@ ul a{
     border-radius: 5px;
     width: 35px;
     height: 2px;
-    background-color: #1D0D85;
+    background-color: #56787d;
     margin:6px 0;
     transition: 0.4s;
 }
@@ -119,7 +117,7 @@ ul a{
     border-radius: 50px;
     margin: 0 .2em 1em;
 }.menu label:hover {
-    background:#4938B5;
+    background:#56787d;
 }
 .slide {
     width: 100%;
@@ -140,13 +138,13 @@ ul a{
 }
   
 .slide-1 {
-    background-image: url(../images/slider.png);
+    background-image: url('https://www.mountaingroup.es/wp-content/uploads/2021/01/Simple_PostHeader_2160x800.jpg');
 }
 .slide-2 {
-    background-image: url(../images/slider.png);
+    background-image: url('https://rab.equipment/media/wysiwyg/EOCA_banner_2160x800.jpg');
 }
 .slide-3 {
-    background-image: url(../images/slider.png);
+    background-image: url('https://rab.equipment/media/amasty/blog/Featured1.5Xtorberg27.jpg');
 }
 
 /* CARDS */
@@ -167,7 +165,7 @@ ul a{
     height: 418.74px;
 }
 .lbl-discount{
-    background-color:#D12727;
+    background-color:#567d5b;
     color: white;
     font-weight: bold;
     display: flex;
@@ -185,7 +183,7 @@ ul a{
     z-index: 1;
     width: 0;
     height: 0;
-    border-top: 100px solid #4938B5;
+    border-top: 100px solid #7b9fa4;
     border-right: 100px solid transparent;
 }
 .lbl-new-product{
@@ -225,7 +223,7 @@ ul a{
     width: 249px;
 }
 .lbl-discount-price{
-    color: #4938B5;
+    color: #56787d;
 }
 .lbl-normal-price{
     text-decoration: line-through;
@@ -233,7 +231,7 @@ ul a{
 }
 .btn-buy{
     text-decoration: none;
-    background-color: #4938B5;
+    background-color: #7b9fa4;
     color: white;
     border-radius: 8px;
     font-size: 16px;
@@ -244,13 +242,13 @@ ul a{
     height: 42px;
 }
 .btn-buy:hover{
-    background-color: #1D0D85;
+    background-color: #56787d;
 }
 .btn-buy img{
     padding-right:5px;
     width: 16px;
     height: 16px;
-    filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(82deg) brightness(108%) contrast(100%);
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(209deg) brightness(107%) contrast(101%);
 }
 /* PROFESIONALES ESPECIALISTAS */
 .section-title{
@@ -261,7 +259,7 @@ ul a{
     align-items: flex-start;
 }
 .section-title h2{
-    color: #4938B5;
+    color: #56787d;
     font-weight: 400;
     font-size: 34px;
     margin-top: 0;
@@ -269,7 +267,7 @@ ul a{
 }
 .section-title h2:nth-child(2){
     margin:0;
-    color: #4938B5;
+    color: #56787d;
     font-weight: 500;
     font-size: 72px;
 }
@@ -333,7 +331,7 @@ ul a{
 }
 .submit-subscribe a{
     text-decoration: none;
-    background-color: #4938B5;
+    background-color: #7b9fa4;
     color: white;
     height: 46px;
     width: 153px;
@@ -345,7 +343,7 @@ ul a{
     border-radius: 25px;
 }
 .submit-subscribe a:hover{
-    background-color: #1D0D85;
+    background-color: #56787d;
 }
 
 /* MEDIA */
