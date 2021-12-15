@@ -7,14 +7,8 @@ body{
     font-weight: 300;
     background-color: #fff;
 }
-.info-message{
-    text-align: center;
-    color: white;
-    background-color: #7b9fa4;
-    padding-top: 5px;
-    padding-bottom:5px;
-}
 header{
+    margin-top: -86px;
     background-color: #fff;
     z-index: 999;
     position: fixed;
@@ -23,6 +17,14 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 90%;
+}
+.info-message{
+    text-align: center;
+    color: white;
+    background-color: #7b9fa4;
+    margin-top: 86px;
+    padding-top: 5px;
+    padding-bottom:5px;
 }
 /* NAVBAR */
 ul{
@@ -375,10 +377,14 @@ ul a{
 }
 @media only screen and (max-width:800px){
     header{
+        margin-top: -70px;
         padding: 0 5%;
     }
     header nav {
         display:none;
+    }
+    .info-message{
+        margin-top: 70px;
     }
     #mobile-navbar{
         display: block;
