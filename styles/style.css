@@ -15,10 +15,14 @@ body{
     padding-bottom:5px;
 }
 header{
+    background-color: #fff;
+    z-index: 999;
+    position: fixed;
     padding:.5rem 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 /* NAVBAR */
 ul{
@@ -149,6 +153,15 @@ ul a{
 }
 .slide-3 {
     background-image: url('https://rab.equipment/media/amasty/blog/Featured1.5Xtorberg27.jpg');
+}
+/* VIDEO */
+.video-container{
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
 }
 
 /* CARDS */
