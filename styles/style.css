@@ -1,7 +1,11 @@
+:root{
+    background-color: white;
+}
 body{
     margin:0;
     font-family: Roboto;
     font-weight: 300;
+    background-color: #fff;
 }
 .info-message{
     text-align: center;
